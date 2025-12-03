@@ -1,4 +1,14 @@
-# Apple Health A.I. Data Analyzer
+# Apple Health A.I. Data Analyzer - MOD
+
+This Python tool is origionally developed by Krumjahn - https://github.com/krumjahn
+
+In my testing I found that the Apple Health export doesnt contain the workout details of a run - eg cadence, pace details, splits, GPS etc.
+
+I am experimenting with using this code as a base and using exported data from iOS / App HealthKit - which does seem to cointain a semblance more data.
+
+ALL BELOW IS BLATANT PLAGURISM AND BASED ON THE ORGIONAL CODE.  IF YOU STUMBLE ACROSS THIS PLEASE GIVE ALL CREDIT TO ORIGINAL AUTHOR.
+
+---
 
 A Python tool that transforms Apple Health export data into insightful visualizations and analytics, with AI-powered analysis. Easily track your fitness journey with detailed analysis of steps, workouts, heart rate, sleep, and more. Features specialized support for WHOOP workout data and ChatGPT integration for personalized insights.
 

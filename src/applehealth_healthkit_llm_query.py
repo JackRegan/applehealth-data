@@ -21,34 +21,17 @@ Example:
     python applehealth_healthkit_llm_query.py --dir healthdata --query "Summarize my running and cycling activities."
 
 Requirements:
-    - pandas
-    - gpxpy
-    - fitparse
-    - ollama
-"""
-"""
-Apple Health CSV LLM Query
--------------------------
-
-This script analyzes Apple Health CSV files (e.g., exported workouts, runs, etc.) and sends a summary to a local Ollama LLM for insights.
-
-Requirements:
-- Python 3.6+
 - pandas
+- gpxpy
+- fitparse
 - ollama
-
-Usage:
-1. Place your Apple Health CSV files in a directory
-2. Run the script and specify the CSV file(s) to analyze
-
-Author: Adapted for Paul Regan
-Version: 0.1.0
+- fitparse
+- ollama
 """
 
 import os
 import sys
 import argparse
-
 import pandas as pd
 import ollama
 from datetime import datetime
@@ -56,53 +39,6 @@ import gpxpy
 import fitparse
 
 def summarize_csv(file_path):
-
-    def summarize_gpx(file_path):
-        with open(file_path, 'r') as f:
-            gpx = gpxpy.parse(f)
-        points = []
-        for track in gpx.tracks:
-            for segment in track.segments:
-                for point in segment.points:
-                    pt = {
-                        'time': point.time,
-                        'latitude': point.latitude,
-                        'longitude': point.longitude,
-                        'elevation': point.elevation
-                    }
-                    # Extensions: heart rate, etc.
-                    if point.extensions:
-                        for ext in point.extensions:
-                            for child in ext:
-                                if 'hr' in child.tag.lower():
-                                    pt['heart_rate'] = child.text
-                    points.append(pt)
-        summary = {
-            'file': os.path.basename(file_path),
-            'type': 'gpx',
-            'total_points': len(points),
-            'start_time': str(points[0]['time']) if points else 'N/A',
-            'end_time': str(points[-1]['time']) if points else 'N/A',
-            'sample_points': points[:10]
-        }
-        return summary
-
-    def summarize_fit(file_path):
-        fitfile = fitparse.FitFile(file_path)
-        records = []
-        for record in fitfile.get_messages('record'):
-            rec = {}
-            for d in record:
-                rec[d.name] = d.value
-            records.append(rec)
-        summary = {
-            'file': os.path.basename(file_path),
-            'type': 'fit',
-            'total_records': len(records),
-            'fields': list(records[0].keys()) if records else [],
-            'sample_records': records[:10]
-        }
-        return summary
     df = pd.read_csv(file_path)
     summary = {}
     summary['file'] = os.path.basename(file_path)
@@ -112,7 +48,6 @@ def summarize_csv(file_path):
         summary['date_range'] = f"{df['Date'].min()} to {df['Date'].max()}"
     else:
         summary['date_range'] = 'N/A'
-    # For numeric columns, show mean/min/max
     numeric_cols = df.select_dtypes(include='number').columns
     for col in numeric_cols:
         summary[col] = {
@@ -120,12 +55,58 @@ def summarize_csv(file_path):
             'min': df[col].min(),
             'max': df[col].max()
         }
-    # Show sample rows
     summary['sample'] = df.head(10).to_dict(orient='records')
     return summary
 
+def summarize_gpx(file_path):
+    with open(file_path, 'r') as f:
+        gpx = gpxpy.parse(f)
+    points = []
+    for track in gpx.tracks:
+        for segment in track.segments:
+            for point in segment.points:
+                pt = {
+                    'time': point.time,
+                    'latitude': point.latitude,
+                    'longitude': point.longitude,
+                    'elevation': point.elevation
+                }
+                if point.extensions:
+                    for ext in point.extensions:
+                        for child in ext:
+                            if 'hr' in child.tag.lower():
+                                pt['heart_rate'] = child.text
+                points.append(pt)
+    summary = {
+        'file': os.path.basename(file_path),
+        'type': 'gpx',
+        'total_points': len(points),
+        'start_time': str(points[0]['time']) if points else 'N/A',
+        'end_time': str(points[-1]['time']) if points else 'N/A',
+        'sample_points': points[:10]
+    }
+    return summary
+
+def summarize_fit(file_path):
+    fitfile = fitparse.FitFile(file_path)
+    records = []
+    for record in fitfile.get_messages('record'):
+        rec = {}
+        for d in record:
+            rec[d.name] = d.value
+        records.append(rec)
+    summary = {
+        'file': os.path.basename(file_path),
+        'type': 'fit',
+        'total_records': len(records),
+        'fields': list(records[0].keys()) if records else [],
+        'sample_records': records[:10]
+    }
+    return summary
+
 def build_llm_prompt(summaries, user_query=None):
-    prompt = "Analyze this Apple Health CSV data and provide insights.\n\n"
+    today = datetime.now().strftime('%Y-%m-%d')
+    prompt = f"Today's date is {today}. Always use this as the current date.\n\nAnalyze this Apple Health CSV data and provide insights.\n\n"
     for summary in summaries:
         prompt += f"File: {summary['file']}\n"
         if summary.get('type') == 'gpx':
