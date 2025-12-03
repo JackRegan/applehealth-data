@@ -1,0 +1,1864 @@
+{
+  "app_version": "1.4.1",
+  "python_version": "3.14.0 (main, Oct  7 2025, 09:34:52) [Clang 17.0.0 (clang-1700.3.19.1)]",
+  "platform": "darwin",
+  "file": "/Users/paulregan/Documents/health_data/export.xml",
+  "file_size_bytes": 2356187183,
+  "total_records": 5242252,
+  "by_type": {
+    "HKQuantityTypeIdentifierBloodAlcoholContent": {
+      "class": "quantity",
+      "count": 7,
+      "units": [
+        "%"
+      ],
+      "sources": [
+        "Water Reminder"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "0.000381761",
+        "0.000757476",
+        "0.000487355"
+      ],
+      "first_seen": "2024-09-19T17:11:24+00:00",
+      "last_seen": "2024-09-20T21:13:03+00:00"
+    },
+    "HKQuantityTypeIdentifierDietaryWater": {
+      "class": "quantity",
+      "count": 43,
+      "units": [
+        "mL"
+      ],
+      "sources": [
+        "Cronometer",
+        "Water Reminder"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "1000",
+        "264",
+        "264"
+      ],
+      "first_seen": "2024-09-19T13:49:31+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierBodyMassIndex": {
+      "class": "quantity",
+      "count": 209,
+      "units": [
+        "count"
+      ],
+      "sources": [
+        "Withings"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "22.4915",
+        "22.3888",
+        "22.1772"
+      ],
+      "first_seen": "2020-09-04T19:24:04+00:00",
+      "last_seen": "2025-11-27T08:00:03+00:00"
+    },
+    "HKQuantityTypeIdentifierHeight": {
+      "class": "quantity",
+      "count": 3,
+      "units": [
+        "ft"
+      ],
+      "sources": [
+        "Pauls iPhone",
+        "Withings"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "5.8727",
+        "5.8727",
+        "5.8399"
+      ],
+      "first_seen": "2020-02-23T14:45:43+00:00",
+      "last_seen": "2020-09-04T19:24:04+00:00"
+    },
+    "HKQuantityTypeIdentifierBodyMass": {
+      "class": "quantity",
+      "count": 212,
+      "units": [
+        "kg"
+      ],
+      "sources": [
+        "Oura",
+        "Pauls iPhone",
+        "Paul\u2019s iPhone",
+        "Withings"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "72.065",
+        "71.736",
+        "71.058"
+      ],
+      "first_seen": "2020-02-23T14:45:43+00:00",
+      "last_seen": "2025-11-27T08:00:03+00:00"
+    },
+    "HKQuantityTypeIdentifierHeartRate": {
+      "class": "quantity",
+      "count": 869906,
+      "units": [
+        "count/min"
+      ],
+      "sources": [
+        "HealthFit",
+        "Nike Run Club",
+        "Oura",
+        "Paul\u2019s Apple\u00a0Watch",
+        "Sleep Cycle"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "80",
+        "112",
+        "115"
+      ],
+      "first_seen": "2020-02-23T17:00:21+00:00",
+      "last_seen": "2025-11-30T14:03:17+00:00"
+    },
+    "HKQuantityTypeIdentifierOxygenSaturation": {
+      "class": "quantity",
+      "count": 8754,
+      "units": [
+        "%"
+      ],
+      "sources": [
+        "Blood Oxygen",
+        "Paul\u2019s Apple\u00a0Watch"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "0.98",
+        "0.95",
+        "0.96"
+      ],
+      "first_seen": "2023-10-28T16:11:51+00:00",
+      "last_seen": "2025-11-29T21:43:18+00:00"
+    },
+    "HKQuantityTypeIdentifierRespiratoryRate": {
+      "class": "quantity",
+      "count": 24309,
+      "units": [
+        "count/min"
+      ],
+      "sources": [
+        "Oura",
+        "Paul\u2019s Apple\u00a0Watch"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "16.5",
+        "16.5",
+        "18.5"
+      ],
+      "first_seen": "2021-09-27T20:48:37+00:00",
+      "last_seen": "2025-11-30T03:10:13+00:00"
+    },
+    "HKQuantityTypeIdentifierBodyFatPercentage": {
+      "class": "quantity",
+      "count": 184,
+      "units": [
+        "%"
+      ],
+      "sources": [
+        "Withings"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "0.16638",
+        "0.16212",
+        "0.1624"
+      ],
+      "first_seen": "2020-12-30T08:03:52+00:00",
+      "last_seen": "2025-11-27T08:00:03+00:00"
+    },
+    "HKQuantityTypeIdentifierLeanBodyMass": {
+      "class": "quantity",
+      "count": 184,
+      "units": [
+        "kg"
+      ],
+      "sources": [
+        "Withings"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "60.075",
+        "60.106",
+        "59.518"
+      ],
+      "first_seen": "2020-12-30T08:03:52+00:00",
+      "last_seen": "2025-11-27T08:00:03+00:00"
+    },
+    "HKQuantityTypeIdentifierStepCount": {
+      "class": "quantity",
+      "count": 582169,
+      "units": [
+        "count"
+      ],
+      "sources": [
+        "AllTrails",
+        "CORP-iPhone-FQVVJTHXDR",
+        "Cersei",
+        "Health",
+        "HealthFit",
+        "Oura",
+        "Pauls iPhone",
+        "Paul\u2019s Apple\u00a0Watch",
+        "Paul\u2019s iPhone",
+        "Paul\u2019s iPhone 13 Pro"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "107",
+        "32",
+        "2"
+      ],
+      "first_seen": "2014-09-25T10:44:52+00:00",
+      "last_seen": "2025-11-30T16:03:44+00:00"
+    },
+    "HKQuantityTypeIdentifierDistanceWalkingRunning": {
+      "class": "quantity",
+      "count": 577114,
+      "units": [
+        "km"
+      ],
+      "sources": [
+        "AllTrails",
+        "CORP-iPhone-FQVVJTHXDR",
+        "Cersei",
+        "GymKit",
+        "Health",
+        "HealthFit",
+        "Nike Run Club",
+        "Pauls iPhone",
+        "Paul\u2019s Apple\u00a0Watch",
+        "Paul\u2019s iPhone",
+        "Paul\u2019s iPhone 13 Pro",
+        "Strava",
+        "Withings"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "1.16715",
+        "0.840592",
+        "0.905457"
+      ],
+      "first_seen": "2014-09-25T10:44:52+00:00",
+      "last_seen": "2025-11-30T16:03:44+00:00"
+    },
+    "HKQuantityTypeIdentifierBasalEnergyBurned": {
+      "class": "quantity",
+      "count": 576426,
+      "units": [
+        "kcal"
+      ],
+      "sources": [
+        "Paul\u2019s Apple\u00a0Watch",
+        "Paul\u2019s iPhone",
+        "Withings"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "15.046",
+        "65.497",
+        "65.497"
+      ],
+      "first_seen": "2020-02-23T16:57:04+00:00",
+      "last_seen": "2025-11-29T22:37:29+00:00"
+    },
+    "HKQuantityTypeIdentifierActiveEnergyBurned": {
+      "class": "quantity",
+      "count": 1296832,
+      "units": [
+        "Cal"
+      ],
+      "sources": [
+        "AllTrails",
+        "GymKit",
+        "HealthFit",
+        "Nike Run Club",
+        "Oura",
+        "Paul\u2019s Apple\u00a0Watch",
+        "Paul\u2019s iPhone",
+        "Slopes",
+        "Strava",
+        "Withings"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "4.256",
+        "0.734",
+        "0.569"
+      ],
+      "first_seen": "2015-07-10T06:21:12+00:00",
+      "last_seen": "2025-11-30T15:41:00+00:00"
+    },
+    "HKQuantityTypeIdentifierFlightsClimbed": {
+      "class": "quantity",
+      "count": 34325,
+      "units": [
+        "count"
+      ],
+      "sources": [
+        "AllTrails",
+        "CORP-iPhone-FQVVJTHXDR",
+        "Cersei",
+        "Pauls iPhone",
+        "Paul\u2019s Apple\u00a0Watch",
+        "Paul\u2019s iPhone",
+        "Withings"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "1",
+        "3",
+        "3"
+      ],
+      "first_seen": "2015-11-30T22:16:26+00:00",
+      "last_seen": "2025-11-30T15:43:13+00:00"
+    },
+    "HKQuantityTypeIdentifierDietaryFatTotal": {
+      "class": "quantity",
+      "count": 32,
+      "units": [
+        "g"
+      ],
+      "sources": [
+        "Bevel",
+        "Cronometer",
+        "Water Reminder"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "0.0507211",
+        "27.6457",
+        "13"
+      ],
+      "first_seen": "2024-09-19T13:51:36+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDietaryFatPolyunsaturated": {
+      "class": "quantity",
+      "count": 19,
+      "units": [
+        "g"
+      ],
+      "sources": [
+        "Bevel",
+        "Cronometer"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "8.06377",
+        "0.0884",
+        "1.1028"
+      ],
+      "first_seen": "2025-02-07T08:39:40+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDietaryFatMonounsaturated": {
+      "class": "quantity",
+      "count": 20,
+      "units": [
+        "g"
+      ],
+      "sources": [
+        "Bevel",
+        "Cronometer"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "0.0405769",
+        "13.3494",
+        "0.7446"
+      ],
+      "first_seen": "2025-02-07T05:53:53+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDietaryFatSaturated": {
+      "class": "quantity",
+      "count": 20,
+      "units": [
+        "g"
+      ],
+      "sources": [
+        "Bevel",
+        "Cronometer"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "4.99502",
+        "4.5",
+        "1.5946"
+      ],
+      "first_seen": "2025-02-07T08:39:40+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDietaryCholesterol": {
+      "class": "quantity",
+      "count": 4,
+      "units": [
+        "mg"
+      ],
+      "sources": [
+        "Bevel",
+        "Cronometer"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "25",
+        "12.5681",
+        "114.75"
+      ],
+      "first_seen": "2025-02-07T13:32:43+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDietarySodium": {
+      "class": "quantity",
+      "count": 21,
+      "units": [
+        "mg"
+      ],
+      "sources": [
+        "Bevel",
+        "Cronometer"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "4.80836",
+        "1075.08",
+        "600"
+      ],
+      "first_seen": "2025-02-07T05:53:53+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDietaryCarbohydrates": {
+      "class": "quantity",
+      "count": 32,
+      "units": [
+        "g"
+      ],
+      "sources": [
+        "Bevel",
+        "Cronometer",
+        "Water Reminder"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "145.793",
+        "41",
+        "1.89"
+      ],
+      "first_seen": "2024-09-19T13:49:51+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDietaryFiber": {
+      "class": "quantity",
+      "count": 18,
+      "units": [
+        "g"
+      ],
+      "sources": [
+        "Bevel",
+        "Cronometer"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "10.4188",
+        "1.0115",
+        "1.06334"
+      ],
+      "first_seen": "2025-02-07T08:39:40+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDietarySugar": {
+      "class": "quantity",
+      "count": 23,
+      "units": [
+        "g"
+      ],
+      "sources": [
+        "Bevel",
+        "Cronometer",
+        "Water Reminder"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "47.0738",
+        "0.141",
+        "0.141"
+      ],
+      "first_seen": "2024-09-19T17:11:24+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDietaryEnergyConsumed": {
+      "class": "quantity",
+      "count": 37,
+      "units": [
+        "kcal"
+      ],
+      "sources": [
+        "Bevel",
+        "Cronometer",
+        "Water Reminder"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "2.40418",
+        "931.283",
+        "320"
+      ],
+      "first_seen": "2024-09-19T13:49:51+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDietaryProtein": {
+      "class": "quantity",
+      "count": 33,
+      "units": [
+        "g"
+      ],
+      "sources": [
+        "Bevel",
+        "Cronometer",
+        "Water Reminder"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "0.284038",
+        "30.7438",
+        "12"
+      ],
+      "first_seen": "2024-09-19T13:51:36+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDietaryVitaminA": {
+      "class": "quantity",
+      "count": 15,
+      "units": [
+        "mcg"
+      ],
+      "sources": [
+        "Cronometer"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "63.002",
+        "0.00818712",
+        "3.63589"
+      ],
+      "first_seen": "2025-11-05T08:15:00+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDietaryVitaminB6": {
+      "class": "quantity",
+      "count": 20,
+      "units": [
+        "mg"
+      ],
+      "sources": [
+        "Bevel",
+        "Cronometer"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "0.533751",
+        "0.068",
+        "0.00996264"
+      ],
+      "first_seen": "2025-02-07T08:39:40+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDietaryVitaminB12": {
+      "class": "quantity",
+      "count": 3,
+      "units": [
+        "mcg"
+      ],
+      "sources": [
+        "Cronometer"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "0.5678",
+        "0.459",
+        "9.394"
+      ],
+      "first_seen": "2025-11-05T08:15:00+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDietaryVitaminC": {
+      "class": "quantity",
+      "count": 12,
+      "units": [
+        "mg"
+      ],
+      "sources": [
+        "Cronometer"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "5.304",
+        "1.312",
+        "18.8631"
+      ],
+      "first_seen": "2025-11-05T08:15:00+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDietaryVitaminD": {
+      "class": "quantity",
+      "count": 3,
+      "units": [
+        "mcg"
+      ],
+      "sources": [
+        "Cronometer"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "0.0442",
+        "0.16875",
+        "26.796"
+      ],
+      "first_seen": "2025-11-05T08:15:00+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDietaryVitaminE": {
+      "class": "quantity",
+      "count": 19,
+      "units": [
+        "mg"
+      ],
+      "sources": [
+        "Bevel",
+        "Cronometer"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "0.0202884",
+        "5.20771",
+        "0.1156"
+      ],
+      "first_seen": "2025-02-07T05:53:53+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDietaryVitaminK": {
+      "class": "quantity",
+      "count": 17,
+      "units": [
+        "mcg"
+      ],
+      "sources": [
+        "Bevel",
+        "Cronometer"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "0.243461",
+        "3.34438",
+        "0.459"
+      ],
+      "first_seen": "2025-02-07T05:53:53+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDietaryCalcium": {
+      "class": "quantity",
+      "count": 22,
+      "units": [
+        "mg"
+      ],
+      "sources": [
+        "Bevel",
+        "Cronometer"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "4.80836",
+        "63.7038",
+        "178"
+      ],
+      "first_seen": "2025-02-07T05:53:53+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDietaryIron": {
+      "class": "quantity",
+      "count": 21,
+      "units": [
+        "mg"
+      ],
+      "sources": [
+        "Bevel",
+        "Cronometer"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "0.0202884",
+        "6.60188",
+        "2.16"
+      ],
+      "first_seen": "2025-02-07T05:53:53+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDietaryThiamin": {
+      "class": "quantity",
+      "count": 20,
+      "units": [
+        "mg"
+      ],
+      "sources": [
+        "Bevel",
+        "Cronometer"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "0.0304327",
+        "0.853125",
+        "0.0255"
+      ],
+      "first_seen": "2025-02-07T05:53:53+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDietaryRiboflavin": {
+      "class": "quantity",
+      "count": 21,
+      "units": [
+        "mg"
+      ],
+      "sources": [
+        "Bevel",
+        "Cronometer"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "0.182596",
+        "0.50175",
+        "0.238"
+      ],
+      "first_seen": "2025-02-07T05:53:53+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDietaryNiacin": {
+      "class": "quantity",
+      "count": 21,
+      "units": [
+        "mg"
+      ],
+      "sources": [
+        "Bevel",
+        "Cronometer"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "0.45649",
+        "13.5431",
+        "0.2584"
+      ],
+      "first_seen": "2025-02-07T05:53:53+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDietaryFolate": {
+      "class": "quantity",
+      "count": 21,
+      "units": [
+        "mcg"
+      ],
+      "sources": [
+        "Bevel",
+        "Cronometer"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "0.00480836",
+        "0.202086",
+        "8.4983"
+      ],
+      "first_seen": "2025-02-07T05:53:53+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDietaryBiotin": {
+      "class": "quantity",
+      "count": 1,
+      "units": [
+        "mcg"
+      ],
+      "sources": [
+        "Cronometer"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "0.76"
+      ],
+      "first_seen": "2025-11-05T18:35:00+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDietaryPantothenicAcid": {
+      "class": "quantity",
+      "count": 21,
+      "units": [
+        "mg"
+      ],
+      "sources": [
+        "Bevel",
+        "Cronometer"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "0.608653",
+        "1.34938",
+        "0.3128"
+      ],
+      "first_seen": "2025-02-07T05:53:53+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDietaryPhosphorus": {
+      "class": "quantity",
+      "count": 21,
+      "units": [
+        "mg"
+      ],
+      "sources": [
+        "Bevel",
+        "Cronometer"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "7.21254",
+        "442.057",
+        "114.617"
+      ],
+      "first_seen": "2025-02-07T05:53:53+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDietaryIodine": {
+      "class": "quantity",
+      "count": 2,
+      "units": [
+        "mcg"
+      ],
+      "sources": [
+        "Cronometer"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "0.223998",
+        "0.4"
+      ],
+      "first_seen": "2025-11-05T13:18:00+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDietaryMagnesium": {
+      "class": "quantity",
+      "count": 21,
+      "units": [
+        "mg"
+      ],
+      "sources": [
+        "Bevel",
+        "Cronometer"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "7.21254",
+        "177.27",
+        "12.2587"
+      ],
+      "first_seen": "2025-02-07T05:53:53+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDietaryZinc": {
+      "class": "quantity",
+      "count": 21,
+      "units": [
+        "mg"
+      ],
+      "sources": [
+        "Bevel",
+        "Cronometer"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "0.0507211",
+        "3.615",
+        "0.4641"
+      ],
+      "first_seen": "2025-02-07T05:53:53+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDietarySelenium": {
+      "class": "quantity",
+      "count": 19,
+      "units": [
+        "mcg"
+      ],
+      "sources": [
+        "Bevel",
+        "Cronometer"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "57.9838",
+        "7.9679",
+        "0.404424"
+      ],
+      "first_seen": "2025-02-07T08:39:40+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDietaryCopper": {
+      "class": "quantity",
+      "count": 20,
+      "units": [
+        "mg"
+      ],
+      "sources": [
+        "Bevel",
+        "Cronometer"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "0.604376",
+        "0.0272",
+        "0.0897624"
+      ],
+      "first_seen": "2025-02-07T08:39:40+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDietaryManganese": {
+      "class": "quantity",
+      "count": 21,
+      "units": [
+        "mg"
+      ],
+      "sources": [
+        "Bevel",
+        "Cronometer"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "0.0507211",
+        "3.60625",
+        "0.0544"
+      ],
+      "first_seen": "2025-02-07T05:53:53+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDietaryPotassium": {
+      "class": "quantity",
+      "count": 22,
+      "units": [
+        "mg"
+      ],
+      "sources": [
+        "Bevel",
+        "Cronometer"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "117.805",
+        "593.933",
+        "20"
+      ],
+      "first_seen": "2025-02-07T05:53:53+00:00",
+      "last_seen": "2025-11-05T18:35:00+00:00"
+    },
+    "HKQuantityTypeIdentifierAppleExerciseTime": {
+      "class": "quantity",
+      "count": 128727,
+      "units": [
+        "min"
+      ],
+      "sources": [
+        "CORP-iPhone-FQVVJTHXDR",
+        "Pauls iPhone",
+        "Paul\u2019s Apple\u00a0Watch",
+        "Paul\u2019s iPhone"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "1",
+        "1",
+        "1"
+      ],
+      "first_seen": "2020-02-24T06:21:52+00:00",
+      "last_seen": "2025-11-29T22:11:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDietaryCaffeine": {
+      "class": "quantity",
+      "count": 9,
+      "units": [
+        "mg"
+      ],
+      "sources": [
+        "Bevel",
+        "Cronometer",
+        "Water Reminder"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "96.1672",
+        "130.5",
+        "130.5"
+      ],
+      "first_seen": "2024-09-19T13:49:51+00:00",
+      "last_seen": "2025-11-05T08:13:00+00:00"
+    },
+    "HKQuantityTypeIdentifierDistanceCycling": {
+      "class": "quantity",
+      "count": 90332,
+      "units": [
+        "km"
+      ],
+      "sources": [
+        "Paul\u2019s Apple\u00a0Watch",
+        "Strava"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "0.163264",
+        "0.187674",
+        "0.178149"
+      ],
+      "first_seen": "2015-07-09T06:07:37+00:00",
+      "last_seen": "2025-09-11T13:22:33+00:00"
+    },
+    "HKQuantityTypeIdentifierDistanceSwimming": {
+      "class": "quantity",
+      "count": 1795,
+      "units": [
+        "m"
+      ],
+      "sources": [
+        "Paul\u2019s Apple\u00a0Watch"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "18",
+        "18",
+        "18"
+      ],
+      "first_seen": "2023-09-06T10:58:24+00:00",
+      "last_seen": "2025-10-15T09:55:07+00:00"
+    },
+    "HKQuantityTypeIdentifierSwimmingStrokeCount": {
+      "class": "quantity",
+      "count": 1792,
+      "units": [
+        "count"
+      ],
+      "sources": [
+        "Paul\u2019s Apple\u00a0Watch"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "7",
+        "9",
+        "10"
+      ],
+      "first_seen": "2023-09-06T10:58:24+00:00",
+      "last_seen": "2025-10-15T09:55:07+00:00"
+    },
+    "HKQuantityTypeIdentifierRestingHeartRate": {
+      "class": "quantity",
+      "count": 1845,
+      "units": [
+        "count/min"
+      ],
+      "sources": [
+        "Paul\u2019s Apple\u00a0Watch"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "59",
+        "59",
+        "65"
+      ],
+      "first_seen": "2020-02-23T17:00:21+00:00",
+      "last_seen": "2025-11-29T18:36:24+00:00"
+    },
+    "HKQuantityTypeIdentifierVO2Max": {
+      "class": "quantity",
+      "count": 1628,
+      "units": [
+        "mL/min\u00b7kg"
+      ],
+      "sources": [
+        "CORP-iPhone-FQVVJTHXDR",
+        "Paul\u2019s Apple\u00a0Watch"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "41.35",
+        "41.09",
+        "41.1"
+      ],
+      "first_seen": "2020-05-19T18:09:40+00:00",
+      "last_seen": "2025-11-29T10:13:16+00:00"
+    },
+    "HKQuantityTypeIdentifierWalkingHeartRateAverage": {
+      "class": "quantity",
+      "count": 1749,
+      "units": [
+        "count/min"
+      ],
+      "sources": [
+        "Paul\u2019s Apple\u00a0Watch"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "84",
+        "77",
+        "85"
+      ],
+      "first_seen": "2020-02-24T06:09:30+00:00",
+      "last_seen": "2025-11-29T12:57:38+00:00"
+    },
+    "HKQuantityTypeIdentifierDistanceDownhillSnowSports": {
+      "class": "quantity",
+      "count": 66,
+      "units": [
+        "km"
+      ],
+      "sources": [
+        "Slopes"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "1.99244",
+        "0.902432",
+        "0.809365"
+      ],
+      "first_seen": "2023-03-01T08:55:59+00:00",
+      "last_seen": "2023-03-05T13:07:41+00:00"
+    },
+    "HKQuantityTypeIdentifierEnvironmentalAudioExposure": {
+      "class": "quantity",
+      "count": 63686,
+      "units": [
+        "dBASPL"
+      ],
+      "sources": [
+        "Paul\u2019s Apple\u00a0Watch"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "60.6433",
+        "69.6478",
+        "66.135"
+      ],
+      "first_seen": "2020-02-24T06:09:30+00:00",
+      "last_seen": "2025-11-29T22:14:37+00:00"
+    },
+    "HKQuantityTypeIdentifierHeadphoneAudioExposure": {
+      "class": "quantity",
+      "count": 23288,
+      "units": [
+        "dBASPL"
+      ],
+      "sources": [
+        "CORP-iPhone-FQVVJTHXDR",
+        "Pauls iPhone",
+        "Paul\u2019s Apple\u00a0Watch",
+        "Paul\u2019s iPhone"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "82.5135",
+        "85.5856",
+        "83.604"
+      ],
+      "first_seen": "2019-09-20T16:06:05+00:00",
+      "last_seen": "2025-11-29T09:46:44+00:00"
+    },
+    "HKQuantityTypeIdentifierWalkingDoubleSupportPercentage": {
+      "class": "quantity",
+      "count": 45552,
+      "units": [
+        "%"
+      ],
+      "sources": [
+        "CORP-iPhone-FQVVJTHXDR",
+        "Pauls iPhone",
+        "Paul\u2019s iPhone"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "0.231",
+        "0.238",
+        "0.27"
+      ],
+      "first_seen": "2020-09-18T14:15:20+00:00",
+      "last_seen": "2025-11-29T15:47:19+00:00"
+    },
+    "HKQuantityTypeIdentifierSixMinuteWalkTestDistance": {
+      "class": "quantity",
+      "count": 237,
+      "units": [
+        "m"
+      ],
+      "sources": [
+        "CORP-iPhone-FQVVJTHXDR",
+        "Pauls iPhone",
+        "Paul\u2019s iPhone"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "500",
+        "500",
+        "500"
+      ],
+      "first_seen": "2020-09-25T06:33:40+00:00",
+      "last_seen": "2025-11-26T20:02:15+00:00"
+    },
+    "HKQuantityTypeIdentifierAppleStandTime": {
+      "class": "quantity",
+      "count": 101625,
+      "units": [
+        "min"
+      ],
+      "sources": [
+        "CORP-iPhone-FQVVJTHXDR",
+        "Pauls iPhone",
+        "Paul\u2019s Apple\u00a0Watch",
+        "Paul\u2019s iPhone"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "1",
+        "3",
+        "5"
+      ],
+      "first_seen": "2020-02-23T17:35:00+00:00",
+      "last_seen": "2025-11-29T22:15:00+00:00"
+    },
+    "HKQuantityTypeIdentifierWalkingSpeed": {
+      "class": "quantity",
+      "count": 49188,
+      "units": [
+        "km/hr"
+      ],
+      "sources": [
+        "CORP-iPhone-FQVVJTHXDR",
+        "Pauls iPhone",
+        "Paul\u2019s iPhone"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "6.66",
+        "6.444",
+        "4.356"
+      ],
+      "first_seen": "2020-09-18T14:15:20+00:00",
+      "last_seen": "2025-11-29T15:47:19+00:00"
+    },
+    "HKQuantityTypeIdentifierWalkingStepLength": {
+      "class": "quantity",
+      "count": 49185,
+      "units": [
+        "cm"
+      ],
+      "sources": [
+        "CORP-iPhone-FQVVJTHXDR",
+        "Pauls iPhone",
+        "Paul\u2019s iPhone"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "87",
+        "87",
+        "63"
+      ],
+      "first_seen": "2020-09-18T14:15:20+00:00",
+      "last_seen": "2025-11-29T15:47:19+00:00"
+    },
+    "HKQuantityTypeIdentifierWalkingAsymmetryPercentage": {
+      "class": "quantity",
+      "count": 29852,
+      "units": [
+        "%"
+      ],
+      "sources": [
+        "CORP-iPhone-FQVVJTHXDR",
+        "Pauls iPhone",
+        "Paul\u2019s iPhone"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "0",
+        "0",
+        "0"
+      ],
+      "first_seen": "2020-09-18T14:34:17+00:00",
+      "last_seen": "2025-11-29T15:47:19+00:00"
+    },
+    "HKQuantityTypeIdentifierStairAscentSpeed": {
+      "class": "quantity",
+      "count": 8012,
+      "units": [
+        "m/s"
+      ],
+      "sources": [
+        "Paul\u2019s Apple\u00a0Watch"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "0.403616",
+        "0.37948",
+        "0.401794"
+      ],
+      "first_seen": "2020-09-18T10:29:03+00:00",
+      "last_seen": "2025-11-29T21:53:08+00:00"
+    },
+    "HKQuantityTypeIdentifierStairDescentSpeed": {
+      "class": "quantity",
+      "count": 7409,
+      "units": [
+        "m/s"
+      ],
+      "sources": [
+        "Paul\u2019s Apple\u00a0Watch"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "0.540439",
+        "0.458403",
+        "0.216975"
+      ],
+      "first_seen": "2020-09-19T12:02:45+00:00",
+      "last_seen": "2025-11-29T22:07:57+00:00"
+    },
+    "HKDataTypeSleepDurationGoal": {
+      "class": "data",
+      "count": 1,
+      "units": [
+        "hr"
+      ],
+      "sources": [
+        "Health"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "8"
+      ],
+      "first_seen": "2020-09-18T13:35:59+00:00",
+      "last_seen": "2020-09-18T13:35:59+00:00"
+    },
+    "HKQuantityTypeIdentifierAppleWalkingSteadiness": {
+      "class": "quantity",
+      "count": 218,
+      "units": [
+        "%"
+      ],
+      "sources": [
+        "CORP-iPhone-FQVVJTHXDR",
+        "Pauls iPhone",
+        "Paul\u2019s iPhone"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "1",
+        "1",
+        "0.971609"
+      ],
+      "first_seen": "2021-09-23T00:00:00+00:00",
+      "last_seen": "2025-11-26T00:00:00+00:00"
+    },
+    "HKQuantityTypeIdentifierAppleSleepingWristTemperature": {
+      "class": "quantity",
+      "count": 381,
+      "units": [
+        "degC"
+      ],
+      "sources": [
+        "Paul\u2019s Apple\u00a0Watch"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "36.4232",
+        "36.2001",
+        "36.763"
+      ],
+      "first_seen": "2023-10-28T22:02:53+00:00",
+      "last_seen": "2025-11-15T06:45:20+00:00"
+    },
+    "HKQuantityTypeIdentifierRunningStrideLength": {
+      "class": "quantity",
+      "count": 26128,
+      "units": [
+        "m"
+      ],
+      "sources": [
+        "HealthFit",
+        "Paul\u2019s Apple\u00a0Watch"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "1.06361",
+        "1.02353",
+        "1.04227"
+      ],
+      "first_seen": "2023-10-29T09:15:49+00:00",
+      "last_seen": "2025-11-29T09:45:55+00:00"
+    },
+    "HKQuantityTypeIdentifierRunningVerticalOscillation": {
+      "class": "quantity",
+      "count": 26405,
+      "units": [
+        "cm"
+      ],
+      "sources": [
+        "HealthFit",
+        "Paul\u2019s Apple\u00a0Watch"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "10.5504",
+        "10.1311",
+        "10.0765"
+      ],
+      "first_seen": "2023-10-29T09:15:54+00:00",
+      "last_seen": "2025-11-29T09:46:00+00:00"
+    },
+    "HKQuantityTypeIdentifierRunningGroundContactTime": {
+      "class": "quantity",
+      "count": 26175,
+      "units": [
+        "ms"
+      ],
+      "sources": [
+        "HealthFit",
+        "Paul\u2019s Apple\u00a0Watch"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "246.513",
+        "255.395",
+        "256.807"
+      ],
+      "first_seen": "2023-10-29T09:15:59+00:00",
+      "last_seen": "2025-11-29T09:46:00+00:00"
+    },
+    "HKQuantityTypeIdentifierHeartRateRecoveryOneMinute": {
+      "class": "quantity",
+      "count": 382,
+      "units": [
+        "count/min"
+      ],
+      "sources": [
+        "Paul\u2019s Apple\u00a0Watch"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "36.8711",
+        "37.9901",
+        "37.9357"
+      ],
+      "first_seen": "2022-09-19T08:04:31+00:00",
+      "last_seen": "2025-11-29T09:49:16+00:00"
+    },
+    "HKQuantityTypeIdentifierUnderwaterDepth": {
+      "class": "quantity",
+      "count": 1340,
+      "units": [
+        "m"
+      ],
+      "sources": [
+        "Oceanic+",
+        "Paul\u2019s Apple\u00a0Watch"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "1.00987",
+        "1.15296",
+        "1.17855"
+      ],
+      "first_seen": "2024-05-05T15:18:51+00:00",
+      "last_seen": "2025-09-25T08:32:16+00:00"
+    },
+    "HKQuantityTypeIdentifierRunningPower": {
+      "class": "quantity",
+      "count": 53207,
+      "units": [
+        "W"
+      ],
+      "sources": [
+        "HealthFit",
+        "Paul\u2019s Apple\u00a0Watch"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "206.866",
+        "217.882",
+        "215.538"
+      ],
+      "first_seen": "2023-10-29T09:15:44+00:00",
+      "last_seen": "2025-11-29T09:46:15+00:00"
+    },
+    "HKQuantityTypeIdentifierEnvironmentalSoundReduction": {
+      "class": "quantity",
+      "count": 752,
+      "units": [
+        "dBASPL"
+      ],
+      "sources": [
+        "Paul\u2019s Apple\u00a0Watch"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "25.6654",
+        "26.427",
+        "27.437"
+      ],
+      "first_seen": "2024-04-28T07:43:41+00:00",
+      "last_seen": "2025-11-29T09:52:12+00:00"
+    },
+    "HKQuantityTypeIdentifierRunningSpeed": {
+      "class": "quantity",
+      "count": 53875,
+      "units": [
+        "km/hr"
+      ],
+      "sources": [
+        "HealthFit",
+        "Paul\u2019s Apple\u00a0Watch"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "9.93157",
+        "10.6569",
+        "10.1492"
+      ],
+      "first_seen": "2022-09-16T08:16:57+00:00",
+      "last_seen": "2025-11-29T09:46:13+00:00"
+    },
+    "HKQuantityTypeIdentifierAppleSleepingBreathingDisturbances": {
+      "class": "quantity",
+      "count": 178,
+      "units": [
+        "count"
+      ],
+      "sources": [
+        "Paul\u2019s Apple\u00a0Watch"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "0.600489",
+        "0.509318",
+        "1.30785"
+      ],
+      "first_seen": "2024-09-16T21:51:46+00:00",
+      "last_seen": "2025-11-15T06:44:14+00:00"
+    },
+    "HKQuantityTypeIdentifierWaterTemperature": {
+      "class": "quantity",
+      "count": 1991,
+      "units": [
+        "degC"
+      ],
+      "sources": [
+        "Oceanic+",
+        "Paul\u2019s Apple\u00a0Watch"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "29.69",
+        "29.69",
+        "29.59"
+      ],
+      "first_seen": "2024-05-05T15:18:51+00:00",
+      "last_seen": "2025-10-15T09:55:06+00:00"
+    },
+    "HKQuantityTypeIdentifierTimeInDaylight": {
+      "class": "quantity",
+      "count": 14183,
+      "units": [
+        "min"
+      ],
+      "sources": [
+        "Paul\u2019s Apple\u00a0Watch"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "5",
+        "5",
+        "5"
+      ],
+      "first_seen": "2023-10-29T08:54:14+00:00",
+      "last_seen": "2025-11-29T10:55:15+00:00"
+    },
+    "HKQuantityTypeIdentifierPhysicalEffort": {
+      "class": "quantity",
+      "count": 346207,
+      "units": [
+        "kcal/hr\u00b7kg"
+      ],
+      "sources": [
+        "Paul\u2019s Apple\u00a0Watch"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "2.1",
+        "1.7",
+        "3.5"
+      ],
+      "first_seen": "2023-09-19T21:48:55+00:00",
+      "last_seen": "2025-11-29T22:12:02+00:00"
+    },
+    "HKCategoryTypeIdentifierSleepAnalysis": {
+      "class": "category",
+      "count": 62863,
+      "units": [],
+      "sources": [
+        "AutoSleep",
+        "Oura",
+        "Pauls iPhone",
+        "Paul\u2019s Apple\u00a0Watch",
+        "Paul\u2019s iPhone",
+        "Sleep Cycle",
+        "Withings"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "HKCategoryValueSleepAnalysisInBed",
+        "HKCategoryValueSleepAnalysisAsleepUnspecified",
+        "HKCategoryValueSleepAnalysisInBed"
+      ],
+      "first_seen": "2020-02-24T22:45:00+00:00",
+      "last_seen": "2025-11-30T07:36:23+00:00"
+    },
+    "HKCategoryTypeIdentifierAppleStandHour": {
+      "class": "category",
+      "count": 34086,
+      "units": [],
+      "sources": [
+        "CORP-iPhone-FQVVJTHXDR",
+        "Pauls iPhone",
+        "Paul\u2019s Apple\u00a0Watch",
+        "Paul\u2019s iPhone"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "HKCategoryValueAppleStandHourIdle",
+        "HKCategoryValueAppleStandHourStood",
+        "HKCategoryValueAppleStandHourStood"
+      ],
+      "first_seen": "2020-02-23T16:00:00+00:00",
+      "last_seen": "2025-11-29T23:00:00+00:00"
+    },
+    "HKCategoryTypeIdentifierMindfulSession": {
+      "class": "category",
+      "count": 100,
+      "units": [],
+      "sources": [
+        "Oura",
+        "Paul\u2019s Apple\u00a0Watch"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "HKCategoryValueNotApplicable",
+        "HKCategoryValueNotApplicable",
+        "HKCategoryValueNotApplicable"
+      ],
+      "first_seen": "2020-02-26T21:48:40+00:00",
+      "last_seen": "2025-07-22T08:37:36+00:00"
+    },
+    "HKCategoryTypeIdentifierAudioExposureEvent": {
+      "class": "category",
+      "count": 839,
+      "units": [],
+      "sources": [
+        "Paul\u2019s Apple\u00a0Watch"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "HKCategoryValueEnvironmentalAudioExposureEventMomentaryLimit",
+        "HKCategoryValueEnvironmentalAudioExposureEventMomentaryLimit",
+        "HKCategoryValueEnvironmentalAudioExposureEventMomentaryLimit"
+      ],
+      "first_seen": "2020-03-02T07:47:38+00:00",
+      "last_seen": "2025-11-22T12:36:54+00:00"
+    },
+    "HKCategoryTypeIdentifierHeadphoneAudioExposureEvent": {
+      "class": "category",
+      "count": 6,
+      "units": [],
+      "sources": [
+        "Pauls iPhone",
+        "Paul\u2019s Apple\u00a0Watch",
+        "Paul\u2019s iPhone"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "HKCategoryValueHeadphoneAudioExposureEventSevenDayLimit",
+        "HKCategoryValueHeadphoneAudioExposureEventSevenDayLimit",
+        "HKCategoryValueHeadphoneAudioExposureEventSevenDayLimit"
+      ],
+      "first_seen": "2021-02-20T11:54:37+00:00",
+      "last_seen": "2025-08-13T18:52:41+00:00"
+    },
+    "HKCategoryTypeIdentifierCoughing": {
+      "class": "category",
+      "count": 1,
+      "units": [],
+      "sources": [
+        "Health"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "HKCategoryValueSeverityMild"
+      ],
+      "first_seen": "2024-11-26T07:04:00+00:00",
+      "last_seen": "2024-11-26T07:04:00+00:00"
+    },
+    "HKCategoryTypeIdentifierSoreThroat": {
+      "class": "category",
+      "count": 1,
+      "units": [],
+      "sources": [
+        "Health"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "HKCategoryValueSeverityMild"
+      ],
+      "first_seen": "2024-11-26T07:04:00+00:00",
+      "last_seen": "2024-11-26T07:04:00+00:00"
+    },
+    "HKCategoryTypeIdentifierHandwashingEvent": {
+      "class": "category",
+      "count": 5155,
+      "units": [],
+      "sources": [
+        "Paul\u2019s Apple\u00a0Watch"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "HKCategoryValueNotApplicable",
+        "HKCategoryValueNotApplicable",
+        "HKCategoryValueNotApplicable"
+      ],
+      "first_seen": "2020-09-21T10:54:29+00:00",
+      "last_seen": "2025-11-29T15:51:39+00:00"
+    },
+    "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+      "class": "quantity",
+      "count": 10481,
+      "units": [
+        "ms"
+      ],
+      "sources": [
+        "Paul\u2019s Apple\u00a0Watch"
+      ],
+      "bad_values": 0,
+      "value_examples": [
+        "67.1016",
+        "30.0687",
+        "38.2729"
+      ],
+      "first_seen": "2020-02-23T19:55:09+00:00",
+      "last_seen": "2025-11-29T21:04:03+00:00"
+    }
+  },
+  "quantity_types": [
+    "HKQuantityTypeIdentifierActiveEnergyBurned",
+    "HKQuantityTypeIdentifierAppleExerciseTime",
+    "HKQuantityTypeIdentifierAppleSleepingBreathingDisturbances",
+    "HKQuantityTypeIdentifierAppleSleepingWristTemperature",
+    "HKQuantityTypeIdentifierAppleStandTime",
+    "HKQuantityTypeIdentifierAppleWalkingSteadiness",
+    "HKQuantityTypeIdentifierBasalEnergyBurned",
+    "HKQuantityTypeIdentifierBloodAlcoholContent",
+    "HKQuantityTypeIdentifierBodyFatPercentage",
+    "HKQuantityTypeIdentifierBodyMass",
+    "HKQuantityTypeIdentifierBodyMassIndex",
+    "HKQuantityTypeIdentifierDietaryBiotin",
+    "HKQuantityTypeIdentifierDietaryCaffeine",
+    "HKQuantityTypeIdentifierDietaryCalcium",
+    "HKQuantityTypeIdentifierDietaryCarbohydrates",
+    "HKQuantityTypeIdentifierDietaryCholesterol",
+    "HKQuantityTypeIdentifierDietaryCopper",
+    "HKQuantityTypeIdentifierDietaryEnergyConsumed",
+    "HKQuantityTypeIdentifierDietaryFatMonounsaturated",
+    "HKQuantityTypeIdentifierDietaryFatPolyunsaturated",
+    "HKQuantityTypeIdentifierDietaryFatSaturated",
+    "HKQuantityTypeIdentifierDietaryFatTotal",
+    "HKQuantityTypeIdentifierDietaryFiber",
+    "HKQuantityTypeIdentifierDietaryFolate",
+    "HKQuantityTypeIdentifierDietaryIodine",
+    "HKQuantityTypeIdentifierDietaryIron",
+    "HKQuantityTypeIdentifierDietaryMagnesium",
+    "HKQuantityTypeIdentifierDietaryManganese",
+    "HKQuantityTypeIdentifierDietaryNiacin",
+    "HKQuantityTypeIdentifierDietaryPantothenicAcid",
+    "HKQuantityTypeIdentifierDietaryPhosphorus",
+    "HKQuantityTypeIdentifierDietaryPotassium",
+    "HKQuantityTypeIdentifierDietaryProtein",
+    "HKQuantityTypeIdentifierDietaryRiboflavin",
+    "HKQuantityTypeIdentifierDietarySelenium",
+    "HKQuantityTypeIdentifierDietarySodium",
+    "HKQuantityTypeIdentifierDietarySugar",
+    "HKQuantityTypeIdentifierDietaryThiamin",
+    "HKQuantityTypeIdentifierDietaryVitaminA",
+    "HKQuantityTypeIdentifierDietaryVitaminB12",
+    "HKQuantityTypeIdentifierDietaryVitaminB6",
+    "HKQuantityTypeIdentifierDietaryVitaminC",
+    "HKQuantityTypeIdentifierDietaryVitaminD",
+    "HKQuantityTypeIdentifierDietaryVitaminE",
+    "HKQuantityTypeIdentifierDietaryVitaminK",
+    "HKQuantityTypeIdentifierDietaryWater",
+    "HKQuantityTypeIdentifierDietaryZinc",
+    "HKQuantityTypeIdentifierDistanceCycling",
+    "HKQuantityTypeIdentifierDistanceDownhillSnowSports",
+    "HKQuantityTypeIdentifierDistanceSwimming",
+    "HKQuantityTypeIdentifierDistanceWalkingRunning",
+    "HKQuantityTypeIdentifierEnvironmentalAudioExposure",
+    "HKQuantityTypeIdentifierEnvironmentalSoundReduction",
+    "HKQuantityTypeIdentifierFlightsClimbed",
+    "HKQuantityTypeIdentifierHeadphoneAudioExposure",
+    "HKQuantityTypeIdentifierHeartRate",
+    "HKQuantityTypeIdentifierHeartRateRecoveryOneMinute",
+    "HKQuantityTypeIdentifierHeartRateVariabilitySDNN",
+    "HKQuantityTypeIdentifierHeight",
+    "HKQuantityTypeIdentifierLeanBodyMass",
+    "HKQuantityTypeIdentifierOxygenSaturation",
+    "HKQuantityTypeIdentifierPhysicalEffort",
+    "HKQuantityTypeIdentifierRespiratoryRate",
+    "HKQuantityTypeIdentifierRestingHeartRate",
+    "HKQuantityTypeIdentifierRunningGroundContactTime",
+    "HKQuantityTypeIdentifierRunningPower",
+    "HKQuantityTypeIdentifierRunningSpeed",
+    "HKQuantityTypeIdentifierRunningStrideLength",
+    "HKQuantityTypeIdentifierRunningVerticalOscillation",
+    "HKQuantityTypeIdentifierSixMinuteWalkTestDistance",
+    "HKQuantityTypeIdentifierStairAscentSpeed",
+    "HKQuantityTypeIdentifierStairDescentSpeed",
+    "HKQuantityTypeIdentifierStepCount",
+    "HKQuantityTypeIdentifierSwimmingStrokeCount",
+    "HKQuantityTypeIdentifierTimeInDaylight",
+    "HKQuantityTypeIdentifierUnderwaterDepth",
+    "HKQuantityTypeIdentifierVO2Max",
+    "HKQuantityTypeIdentifierWalkingAsymmetryPercentage",
+    "HKQuantityTypeIdentifierWalkingDoubleSupportPercentage",
+    "HKQuantityTypeIdentifierWalkingHeartRateAverage",
+    "HKQuantityTypeIdentifierWalkingSpeed",
+    "HKQuantityTypeIdentifierWalkingStepLength",
+    "HKQuantityTypeIdentifierWaterTemperature"
+  ],
+  "category_types": [
+    "HKCategoryTypeIdentifierAppleStandHour",
+    "HKCategoryTypeIdentifierAudioExposureEvent",
+    "HKCategoryTypeIdentifierCoughing",
+    "HKCategoryTypeIdentifierHandwashingEvent",
+    "HKCategoryTypeIdentifierHeadphoneAudioExposureEvent",
+    "HKCategoryTypeIdentifierMindfulSession",
+    "HKCategoryTypeIdentifierSleepAnalysis",
+    "HKCategoryTypeIdentifierSoreThroat"
+  ],
+  "unknown_types": [],
+  "note": "Category types are expected to have string values; they are not corrupt."
+}
